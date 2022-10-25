@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+$orange: #FD7900;
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.orange {
+  color: $orange;
+}
+
+
+@import "free";
+@import "work";
+@import "price";
+@import "gallery";
+@import "contacts";
+@import "information";
+@import "footer";
+@import "question";
+@import "header";
